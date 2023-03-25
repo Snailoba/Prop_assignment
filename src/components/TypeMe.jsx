@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import "../styles/TypeMe.css";
 function TypeMe() {
   const [show, setShow] = useState(false);
   const handleBlur = () => {
